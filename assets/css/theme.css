@@ -10016,10 +10016,11 @@ h1, h2, h3, h4, h5, h6 {
 /* Header */
 .site-logo .logo-text {
   position: relative;
+  font-size: 3.5rem;
   top: 3px;
 }
 .site-logo .logo-text .alt {
-  font-size: 1rem;
+  font-size: 3rem;
   background: #c998c7;
   color: #723C70;
   padding: 2px 4px;
