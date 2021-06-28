@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="87px" height="87px" viewBox="0 0 87 87" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Wealth2 2</title>
+    <defs>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="100%" id="radialGradient-1">
+            <stop stop-color="#723C70" offset="0%"></stop>
+            <stop stop-color="#A35BA0" offset="100%"></stop>
+        </radialGradient>
+        <path d="M13.0847568,41.2193959 L29.8665946,73.8616852 M29.8636293,73.8606607 L41.6282625,49.0582583 M41.6257915,49.0582583 L53.3904247,73.8606607 M53.3873359,73.861244 L76.9153668,16.138756" id="path-2"></path>
+        <filter x="-9.2%" y="-10.1%" width="118.5%" height="120.2%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="4.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="1" dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.180392157   0 0 0 0 0.435294118   0 0 0 0 0.584313725  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#2E6F95" offset="0%"></stop>
+            <stop stop-color="#632661" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#2E6F95" offset="0%"></stop>
+            <stop stop-color="#632661" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-6">
+            <stop stop-color="#2E6F95" offset="0%"></stop>
+            <stop stop-color="#632661" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-7">
+            <stop stop-color="#2E6F95" offset="0%"></stop>
+            <stop stop-color="#632661" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Wealth2Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Wealth2-2">
+            <rect id="Rectangle" fill="url(#radialGradient-1)" x="0" y="0" width="87" height="87" rx="5"></rect>
+            <g id="Combined-Shape" stroke-linecap="round">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                <use stroke="#FFFFFF" stroke-width="9" fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-2"></use>
+            </g>
+            <line x1="30.5" y1="73.5" x2="41.5" y2="49.5" id="Line-6" stroke="url(#linearGradient-4)" stroke-width="3" stroke-linecap="round"></line>
+            <line x1="41.5" y1="49.5" x2="53.5" y2="73.5" id="Line-7" stroke="url(#linearGradient-5)" stroke-width="3" stroke-linecap="round"></line>
+            <line x1="53.5" y1="73.5" x2="77" y2="16" id="Line-8" stroke="url(#linearGradient-6)" stroke-width="3" stroke-linecap="round"></line>
+            <line x1="13.5" y1="41.5" x2="30.5" y2="73.5" id="Line-5" stroke="url(#linearGradient-7)" stroke-width="3" stroke-linecap="round"></line>
+        </g>
+    </g>
+</svg>
